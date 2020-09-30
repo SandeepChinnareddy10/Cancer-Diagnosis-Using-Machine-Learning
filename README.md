@@ -1,11 +1,9 @@
 # Cancer-Diagnosis-Using-Machine-Learning
 
-In this Design oriented project, various machine learning approaches are studied in
-the context of image classification. Here we aim at standardizing a machine learning
-model using multiple existing neural networks to understand and classify various
-types of Brain tumor, namely meningioma, glioma and pituitary tumor. Here we
-begin by extracting a dataset, preprocessing, exploratory data analysis and conclude
-useful insights from the extracted dataset. The aim is to club one or more of these
-existing models into layers and design a model that can classify a given MRI dataset
-into a meningioma, glioma or a pituitary tumor case. The initial parameters are taken
-according to the image resolution and later optimized according to requirements.
+Brain tumor is a deadly type of cancer which in most cases decreases the survival time to two years. A brain tumor is the uncontrolled growth of cancer cells in the brain. This is clinically identified by validating a Magnetic resonance Imaging (MRI) Scan. Brain tumor is classified into different types based on the location of the tumor and based on the level of growth. This is identified by medical professionals by examining MRI scans. However, this will take up a lot of time and may be even subjected to human error. Chemotherapy, Radiotherapy and surgery are rigorous treatments and can’t afford to be misdiagnosed. In a modern computerised world, we aim to digitize and predict the type of a brain tumor using a machine learning model. This model is trained on a given pre-existing dataset and their type such that it’ll be ready to predict the next incoming MRI scan. 
+
+In this project, the concept of Neural Networks in Machine learning, which are in-turn inspired from the neurons in the brain is extensively studied and applied. 
+
+In this Design oriented project, various machine learning approaches are studied in the context of image classification. Here we aim at standardizing a machine learning model using multiple existing neural networks to understand and classify various types of Brain tumor, namely 'meningioma', 'glioma' and 'pituitary' tumor. Here we begin by extracting a dataset, preprocessing, perform exploratory data analysis and conclude useful insights from the extracted dataset. The aim is to club one or more of these existing models into layers and design a model that can classify a given MRI dataset into a meningioma, glioma or a pituitary tumor case. The initial parameters are taken according to the image resolution and later optimized according to requirements. 
+
+Further, convolutional neural networks which are suitable for image classification, are explored and a model is designed to classify the given dataset. The hyperparameters with which the model is initialized is optimized by trial and error method
